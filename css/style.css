@@ -130,6 +130,11 @@ border:0px;
 margin-right: 10px;
 }
 
+.ctabtn1:hover{
+    background-color: transparent;
+    border:1px solid #21E786;
+    color:white;
+}
 .ctabtn2{
     padding:10px 15px 10px 15px;
     border:2px solid #21E786;
@@ -138,6 +143,10 @@ margin-right: 10px;
     font-family: Bakbak One;
 }
 
+.ctabtn2:hover{
+    background-color: #21E786;
+    border:0px;
+}
 .main{
     background-color: #040B11;
 }
@@ -185,6 +194,8 @@ margin-right: 10px;
    
 }
 
+
+
 .partner{
     margin-top:30px;
     padding-top:50px;
@@ -201,7 +212,7 @@ margin-right: 10px;
 .cards{
     flex-wrap: no-wrap;
     justify-content: space-evenly;
-}
+}   
 
 .card-box{
     background-color: #141B22;
@@ -211,12 +222,15 @@ margin-right: 10px;
     margin-bottom: 15px;
     /* margin-right: 1px; */
     width:270px;
+    box-shadow: 0px 0px 5px 0px #21E786;
 }
+
 
 .cardtxt p{
     color: white;
     font-family: Bakbak One;
 }
+
 
 
 
