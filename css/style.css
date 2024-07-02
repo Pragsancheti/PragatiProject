@@ -1,0 +1,511 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+.header{
+   background-image: url("../images/BG.png");
+    background-repeat: no-repeat; 
+       background-size: cover;
+       height: 700px;
+       background-position: center;
+}
+
+.logo{
+    font-family: "Bakbak One", sans-serif;
+    font-weight: 400;
+    line-height: 42px;
+    font-size:32px;
+}
+.mainnav{
+    background-color:  #040B11;
+    padding-bottom:0px;
+    margin-bottom:0px;
+   
+}
+
+.mainnav ul li a,.nav li a{
+    color: white;
+    font-family: "Bakbak One", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 10%;
+}
+
+.buttons{
+    display:flex;
+    align-items: center;
+    justify-items: auto;
+    
+}
+
+.img1 {
+    margin-right:10px;
+}
+.img2 a{
+    height:50px;
+    padding:10px 20px 12px 24px;
+    
+    background-color: #141B22;
+    color: white;
+    margin-right: 15px;
+    font-family: "Bakbak One", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+text-decoration: none;
+    
+}
+
+.img3 a{
+    background-color:  #21E786;
+   height:50px;
+padding: 10px 20px 12px 24px;
+text-decoration: none;
+font-family: "Bakbak One", sans-serif;
+font-weight: 400;
+font-size: 16px;
+color: white;
+line-height: 24px;
+
+    
+}
+
+
+.cta{
+  
+    height: 580px; 
+    background-position:left bottom;
+    /* height: 85%; */
+    position: relative;
+}
+
+
+.sec1{
+    text-align: center;
+    width: 885px;
+    height: 200px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 30px;
+}
+  
+
+
+.cta-text h1{
+    font-family: Bakbak One;
+font-size: 70px;
+font-weight: 400;
+line-height: 70px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.cta-text p{
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 40px;
+    
+    color: #FFFFFF;
+}
+
+.btncta{
+    margin-bottom: 50px;
+}
+.ctabtn1{
+
+padding:10px 15px 10px 15px;
+background-color:#21E786;
+color: black;
+font-family: Bakbak One;
+border:0px;
+margin-right: 10px;
+}
+
+.ctabtn2{
+    padding:10px 15px 10px 15px;
+    border:2px solid #21E786;
+    color: white;
+    background-color: transparent;
+    font-family: Bakbak One;
+}
+
+.main{
+    background-color: #040B11;
+}
+
+.work{
+    padding-top: 90px;
+}
+.work1{
+    background: #141B22;
+    padding-bottom: 20px;
+}
+
+.work-title h1{
+    color: white;
+    font-family: Bakbak One;
+    line-height: 40px;
+    font-weight: 400;
+    padding-bottom: 30px;
+    font-size: 38px;
+    margin-bottom:20px;
+}
+.work-title h1 span{
+    font-size: 38px;
+
+    color:#21E786;
+    font-family: Bakbak One;
+    line-height: 40px;
+    font-weight: 400;
+}
+
+.work1 h3{
+    color: #21E786;
+    font-family: Bakbak One;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing:1px;
+}
+.work1 p{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100px;
+    font-size: 17px;
+    line-height: 15px;
+   
+}
+
+.partner{
+    margin-top:30px;
+    padding-top:50px;
+
+}
+
+
+.collection-title {
+    color: white;
+    font-family: Bakbak One;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.cards{
+    flex-wrap: no-wrap;
+    justify-content: space-evenly;
+}
+
+.card-box{
+    background-color: #141B22;
+    border:1px solid #141B22;
+    padding:10px;
+    
+    margin-bottom: 15px;
+    /* margin-right: 1px; */
+    width:270px;
+}
+
+.cardtxt p{
+    color: white;
+    font-family: Bakbak One;
+}
+
+
+
+
+.story1{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.storytxt h1{
+    font-size: 44px;
+    color: white;
+    font-family: Bakbak One;
+    font-weight: 400;
+    line-height:56px;
+}
+
+.storytxt p{
+    font-size: 18px;
+    line-height: 28px; 
+    font-family: "Poppins", sans-serif;
+    font-Weight:400;
+   font-size:18px;
+    line-height:28px;
+    padding-bottom:20px;
+}
+
+.items{
+    padding-bottom: 20px;
+    /* border:1px solid red; */
+}
+
+.item1 span{
+    font-size: 20px;
+    padding-bottom:20px;
+    font-family: Bakbak One;
+    font-weight: 100;
+    line-height:28px;
+}
+
+
+.item1 p{
+    font-size: 56px;
+    font-family: Bakbak One;
+    font-weight: 400;
+    display: inline-block;
+    text-shadow: 0px 4px 16px #ffffff75;
+}
+
+.storybtn{
+    border:2px solid #21E786;
+    padding:12px 24px;
+    color:#fff;
+    margin-bottom:20px;
+}
+
+.story-box{
+    position: relative;
+    text-align: center;
+    background-color: #141B22;
+    /* z-index:-1; */
+    margin:10px;
+    width:250px;
+}
+
+.no{
+    height:200px;
+}
+
+.no span{
+    font-size: 80px;
+    color:#21e78757;
+    opacity: 30%;
+    font-family: Bakbak One;
+    font-weight: 400;
+    line-height:96px;
+}
+
+
+.txt{
+    position:absolute;
+    top:28%;
+    left:14;
+    /* z-index:-1; */
+    padding:0px 10px;
+}
+
+.txt h4{
+    font-family: Bakbak One;
+    font-weight: 400;
+    font-size:18px;
+    line-height:32px ;
+
+}
+
+.txt p{
+    font-family: "Poppins", sans-serif;
+    font-Weight:400;
+    font-size:14px;
+    line-height:28px;
+    text-align: center;
+    width:210px;
+    /* border: 1px solid green; */
+    
+
+}
+
+.story2{
+    /* border:1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+
+.part{
+
+
+    justify-content:right;
+}
+
+
+
+
+@media( min-width:320px){
+ 
+
+    .sec1{
+        text-align: center;
+        width: 300px;
+        height: 600px;
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        line-height: 30px;
+
+    }
+    .cta-text h1{
+        font-family: Bakbak One;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 70px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    }
+    
+    .cta-text p{
+    
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-size: 14x;
+        line-height: 40px;
+        
+        color: #FFFFFF;
+    }
+
+    .btncta{
+        margin-bottom: 50px;
+    }
+    .ctabtn1{
+    
+    padding:10px 15px 10px 15px;
+    background-color:#21E786;
+    color: black;
+    font-family: Bakbak One;
+    border:0px;
+    margin-right: 10px;
+    display: inline-block;
+    margin-bottom:10px;
+    }
+    
+    .ctabtn2{
+        padding:10px 18px 10px 15px;
+        border:2px solid #21E786;
+        color: white;
+        background-color: transparent;
+        font-family: Bakbak One;
+        display: inline-block;
+    }
+    
+    .item1 span{
+        font-size: 18px;
+        padding-bottom:20px;
+        font-family: Bakbak One;
+        font-weight: 100;
+        line-height:18px;
+    }
+    .item1 p{
+        font-size: 40px;
+        font-family: Bakbak One;
+        font-weight: 400;
+        display: inline-block;
+        text-shadow: 0px 4px 16px #ffffff75;
+ 
+    }
+
+    .storybtn{
+        border:2px solid #21E786;
+        padding:12px 24px;
+        color:#fff;
+        margin-bottom:20px;
+        margin-left:80px;
+    }
+}
+
+@media (min-width:991px){
+    .sec1{
+        text-align: center;
+        width: 885px;
+        height: 200px;
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        line-height: 30px;
+    }
+      
+    
+    
+    .cta-text h1{
+        font-family: Bakbak One;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 70px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    }
+    
+    .cta-text p{
+    
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 40px;
+        
+        color: #FFFFFF;
+    }
+    
+    .btncta{
+        margin-bottom: 50px;
+    }
+    .ctabtn1{
+    
+    padding:10px 15px 10px 15px;
+    background-color:#21E786;
+    color: black;
+    font-family: Bakbak One;
+    border:0px;
+    margin-right: 10px;
+    }
+    
+    .ctabtn2{
+        padding:10px 15px 10px 15px;
+        border:2px solid #21E786;
+        color: white;
+        background-color: transparent;
+        font-family: Bakbak One;
+    }
+    .items{
+        padding-bottom: 20px;
+        /* border:1px solid red; */
+    }
+    
+    .item1 span{
+        font-size: 20px;
+        padding-bottom:20px;
+        font-family: Bakbak One;
+        font-weight: 100;
+        line-height:28px;
+    }
+    
+    
+    .item1 p{
+        font-size: 56px;
+        font-family: Bakbak One;
+        font-weight: 400;
+        display: inline-block;
+        text-shadow: 0px 4px 16px #ffffff75;
+    }
+    .storybtn{
+        border:2px solid #21E786;
+        padding:12px 24px;
+        color:#fff;
+        margin-bottom:20px;
+        margin-left: 0px;
+    }
+}
